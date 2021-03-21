@@ -1,0 +1,132 @@
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.site-header {
+	background-image: url(../img/site-header-img.png);
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-section {
+	background-image: url(../img/main-img.png);
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.la {
+	padding-top: 250px;
+	width: 450px;
+}
+
+.media {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.media-body {
+	width: 350px;
+}
+
+.bg-light {
+	border-radius: 10px;
+	width: 470px;
+}
+
+.main-img {
+	background-image: url(../img/main-third.png);
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.main-img::before {
+	display: block;
+	content: "";
+	background-image: url(../img/oval-third.png);
+	position: absolute;
+	width: 255px;
+	height: 255px;
+	bottom: 50px;
+	right: 470px;
+}
+
+.ever-need {
+	background-color: #F7F7FB;
+}
+
+.divider {
+	background-image: url(../img/women-img.png);
+	position: relative;
+	content: "";
+	width: 480px;
+	height: 586px;
+}
+
+.divider::before {
+	display: block;
+	content: "";
+	background-image: url(../img/oval-5.png);
+	position: absolute;
+	width: 290px;
+	height: 290px;
+	bottom: 0px;
+	right: 250px;
+}
+
+.site-main-section {
+	background-color: #413E65;
+}
+
+.img-div {
+	position: relative;
+	background-image: url(../img/sariq.png);
+	position: relative;
+	content: "";
+	width: 380px;
+	height: 566px;
+	background-repeat: no-repeat;
+}
+
+.img-div::before {
+	position: absolute;
+	background-image: url(../img/after-sariq.png);
+	content: "";
+	width: 260px;
+	height: 260px;
+	background-repeat: no-repeat;
+	right: -80px;
+	top: 100px;
+}
+
+.get-start {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.labox {
+	width: 370px;
+}
+
+
+
+
